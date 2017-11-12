@@ -3,6 +3,7 @@
 Sistema de Eventos encomendado pela Morena.
 
 [![Build Status](https://travis-ci.org/EdelcioBatista/eventex.svg?branch=master)](https://travis-ci.org/EdelcioBatista/eventex)
+[![Code Health](https://landscape.io/github/EdelcioBatista/eventex/master/landscape.svg?style=flat)](https://landscape.io/github/EdelcioBatista/eventex/master)
 
 
 ## Como desenvolver?
