@@ -2,6 +2,9 @@
 
 Sistema de Eventos encomendado pela Morena.
 
+[![Build Status](https://travis-ci.org/EdelcioBatista/eventex.svg?branch=master)](https://travis-ci.org/EdelcioBatista/eventex)
+
+
 ## Como desenvolver?
 
 1. Crie o repositório
