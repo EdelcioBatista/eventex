@@ -42,6 +42,7 @@ class SubscribePostValid(TestCase):
         data = dict(name='Edelcio Batista', cpf='12345678901',
                     email='edelcio.batista@gmail.com', phone='11-99999-9999')
         self.resp = self.client.post('/inscricao/', data)
+        self.id = Subscription.objects.first().id  # agregado
 
     def test_post(self):
         """Valid POST should redirect to /inscricao/1/"""
