@@ -1,5 +1,5 @@
 from django.db import models
-import uuid #
+import uuid # agregado
 
 
 class Subscription(models.Model):
