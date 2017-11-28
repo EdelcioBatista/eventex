@@ -23,7 +23,7 @@ class SubscriptionModelAdminTest(TestCase):
         mock = self.call_action()
         mock.assert_called_once_with(None, '1 inscrição foi marcada como paga')
 
-    del call_action(self):
+    def call_action(self):
         queryset = Subscription.objects.all()
 
         mock = Mock()
